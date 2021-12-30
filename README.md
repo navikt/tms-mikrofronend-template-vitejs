@@ -32,7 +32,7 @@ Team Min Side bruker pb-workflow-authority for å sette opp workflows, husk å l
 # Kom i gang
 
 1. Bygg tms-mikrofrontend-template ved å kjøre npm run build
-2. Start appen lokalt ved å kjøre npm start
+2. Start appen lokalt ved å kjøre npm run dev
 3. Appen nås på http://localhost:3000
 
 # Henvendelser
