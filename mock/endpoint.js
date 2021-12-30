@@ -1,6 +1,6 @@
 export default [
   {
-    url: "/api/tekst",
+    url: "/api/endpoint",
     method: "get",
     response: () => {
       return {
