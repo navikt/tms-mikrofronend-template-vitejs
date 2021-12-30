@@ -1,0 +1,11 @@
+.greeting {
+  text-align: center;
+}
+
+.greeting__panel {
+  padding: 2.25em;
+}
+
+p {
+  color: #6e6a86;
+}

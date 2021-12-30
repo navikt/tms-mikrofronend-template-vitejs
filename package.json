@@ -1,0 +1,27 @@
+{
+  "name": "tms-mikrofrontend-template-vitejs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@navikt/ds-css": "0.12.5",
+    "@navikt/ds-react": "0.14.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.1",
+    "@testing-library/react": "12.1.2",
+    "@testing-library/user-event": "13.5.0",
+    "@vitejs/plugin-react": "1.0.7",
+    "jsdom": "19.0.0",
+    "rollup-plugin-import-map": "2.2.2",
+    "vite": "2.7.2",
+    "vite-plugin-mock": "2.9.6",
+    "vitest": "0.0.113"
+  }
+}
