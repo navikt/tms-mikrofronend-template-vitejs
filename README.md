@@ -39,5 +39,6 @@ Team Min Side bruker pb-workflow-authority for å sette opp workflows, husk å l
 
 Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på github.
 
-For NAV-ansatte
+## For NAV-ansatte
+
 Interne henvendelser kan sendes via Slack i kanalen #team-personbruker.
