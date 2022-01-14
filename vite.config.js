@@ -27,12 +27,12 @@ export default ({ command }) => ({
   build: {
     cssCodeSplit: false,
     rollupOptions: {
-      input: "src/App.jsx",
+      input: "src/Mikrofrontend.jsx",
       output: {
         manualChunks: false,
-        entryFileNames: `[name].js`,
-        chunkFileNames: `[name].js`,
-        assetFileNames: `[name].[ext]`,
+        entryFileNames: `bundle.js`,
+        chunkFileNames: `bundle.js`,
+        assetFileNames: `bundle.[ext]`,
       },
     },
   },
