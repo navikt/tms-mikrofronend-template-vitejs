@@ -27,7 +27,7 @@ export default ({ command }) => ({
   build: {
     cssCodeSplit: false,
     rollupOptions: {
-      input: "src/App.jsx",
+      input: "src/Mikrofrontend.jsx",
       output: {
         manualChunks: false,
         entryFileNames: `[name].js`,
