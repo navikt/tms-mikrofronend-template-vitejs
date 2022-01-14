@@ -30,9 +30,9 @@ export default ({ command }) => ({
       input: "src/Mikrofrontend.jsx",
       output: {
         manualChunks: false,
-        entryFileNames: `[name].js`,
-        chunkFileNames: `[name].js`,
-        assetFileNames: `[name].[ext]`,
+        entryFileNames: `bundle.js`,
+        chunkFileNames: `bundle.js`,
+        assetFileNames: `bundle.[ext]`,
       },
     },
   },
