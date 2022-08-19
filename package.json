@@ -6,7 +6,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "prepare": "husky install",
+    "prepare": "husky install && chmod +x .husky/scripts/check-no-a11y-ignored.sh ",
     "lint": "eslint --fix --ext .js,.jsx .",
     "lint:staged": "eslint -c .eslintrc.pre-commit.js --fix --ext .js,.jsx ."
   },
